@@ -1,0 +1,261 @@
+body{
+    margin: 0px;
+    font-family: sans-serif;
+    font-size: 30px;
+}
+#body-header{
+    height: 65vh;
+    opacity: 0.8;
+    background-image: url(https://ninjasfiles.s3.amazonaws.com/asset_0000000000000020_1549743985_macbook_mouse.jpg);
+    background-blend-mode:luminosity;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding-top: 1.2rem;
+}
+
+.no-list-style{
+    list-style: none;
+}
+
+.no-list-style li{
+    margin: 0.4rem 0px;
+    font-size:1rem
+}
+
+.no-list-style li a{
+    list-style: none;
+    color: white;
+    text-decoration: none;
+}
+
+.horizontal-list{
+    padding-left: 0px;
+    margin: 0px;
+}
+
+.horizontal-list li{
+    display: inline-block;
+    margin: 0px 8px 8px 0px ;
+}
+
+.nav-menu li a{
+    transition: color 0.5s, border-bottom 4s;
+}
+
+.nav-menu li a:hover{
+    color: rgb(178, 136, 233);
+}
+
+#name-social-container {
+    margin-top: 20vh;
+}
+
+#my-name {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 3rem;
+    letter-spacing: 0.1rem;
+    color: rgb(241, 241, 245);
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    text-shadow: 2px 1px 1px rgb(5, 5, 5),
+             2px 2px 1px black,
+             2px 3px 1px  black,
+             2px 4px 1px  black,
+             2px 5px 1px  rgb(29, 28, 28);
+}
+
+
+.social-icons li a i {
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 50%;
+}
+
+.social-icons li a i:hover {
+    box-shadow: 0px 0px 6px 4px rgba(230, 196, 196, 0.3);
+}
+
+#about{
+    height:auto;
+    width: 100%;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+
+#my-para{
+    padding:10px ;
+    width: 70%;
+    text-align:justify;
+    color:grey;
+    line-height: 28px;
+    font-size: 1.1rem;
+    margin:auto;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+}
+section:nth-child(2n){
+    background-color: #9e9b9b29;
+}
+section:nth-child(2n+1){
+    background-color: white;
+}
+.section-heading{
+    width: auto;
+    padding: 20px 10px 10px;
+    font-weight: 400;
+}
+.section-heading span{
+    font-size: 30px;
+    color: #2857a4;
+    display: inline-block;
+    padding-top: 5px;
+    margin-right: 0.5rem;
+}
+
+.skill-display{
+    width: 75%;
+    padding: 20px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.skill-progress{
+    width:11rem;
+    height: 2.2rem;
+    background-color: rgb(184, 183, 183);
+    border-radius: 1rem;
+    box-shadow: 1px 1px 2px 1px #b9b9b9 ;
+    margin:25px;
+    overflow: hidden;
+}
+
+.skill-name span{
+    color: white;
+    font-size: 1rem;
+    margin-left: 10px;
+    vertical-align: middle;
+}
+
+#contact {
+    background-color: #0abcf9;
+    background-image: linear-gradient(50deg, #2857a4 0%, #403066 74%);
+    color: white;
+    padding-bottom: 40px;
+}
+
+
+#contact h1,
+#contact h1 span {
+    color: white;
+}
+
+
+
+
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+
+
+.text-right{
+    text-align: right;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+
+
+.m0 {
+    margin: 0;
+}
+
+.mb25px {
+    margin-bottom: 10px;
+}
+
+.mb75px {
+    margin-bottom: 75px;
+}
+
+.mb50px {
+    margin-bottom: 50px;
+}
+
+
+
+.text-highlight {
+    color: #2857a4;
+    font-weight: 600;
+
+}
+
+
+
+.m-blue {
+    color: #2857a4;
+}
+
+.mb-blue {
+    background-color: #2857a4;
+}
+
+.mb-orange {
+    background-color: #ec4d1c;
+}
+
+.mb-red {
+    background-color:rgb(247, 10, 50);
+}
+
+.mb-light-purple {
+    background-color: #93738c;
+}
+
+
+
+
+.seventy-percent {
+    height: inherit;
+    width: 70%;
+}
+
+.eighty-percent {
+    height: inherit;
+    width: 80%;
+}
+
+.fifty-percent {
+    height: inherit;
+    width: 50%;
+}
+
+.ninety-percent{
+    height: inherit;
+    width: 90%;
+}
+
+
+
+
+
+
+
